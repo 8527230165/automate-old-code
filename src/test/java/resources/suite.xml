@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "testng/testng-1.0.dtd">
+<suite name="Regresion indemnizacion multiples secuencias" id="7" >
+    <listeners>
+        <listener class-name="com.segurosbolivar.automation.commons.TestListener"/>
+    </listeners>
+    <test name="Web Test">
+        <classes >
+
+            <class name="com.segurosbolivar.automation.tests.login.RunnerLogin">
+                <methods>
+                    <include name="loginSuccessfully"></include>
+                </methods>
+            </class>
+
+            </classes>
+        </test>
+    </suite>
